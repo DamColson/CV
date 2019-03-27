@@ -1,0 +1,92 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white;
+  height: 100vh;
+  position: relative;
+}
+
+.Img {
+  border: 1px lightgreen solid;
+  border-radius: 50px;
+  margin-top: 70px;
+}
+
+.bgColor {
+  background-color: white;
+}
+
+.indigo {
+  background-color: indigo;
+  border: 1px solid indigo;
+}
+
+.margin1 {
+  margin-top: 20vh;
+}
+
+.margin2 {
+  margin-top: 100px;
+}
+
+.name {
+  color: darkred;
+}
+
+.bg-lightGreen {
+  background-color: lightgreen;
+}
+
+.text-lightGreen {
+  color: lightGreen;
+}
+
+.fixed {
+  position: fixed;
+  z-index: 1;
+}
+
+.margin {
+  margin-left: 12rem;
+}
+
+.colLeft {
+  width: 100%;
+  margin-left: -20px;
+}
+
+@media screen and (min-width:1024px){
+  .topBand {
+    display: none;
+  }
+  .margin {
+    margin-left: 12rem;
+  }
+}
+
+@media screen and (min-width:800px) and (max-width:1024px){
+  .topBand {
+    display: none;
+  }
+  .margin {
+    margin-left: 12rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .leftCol {
+    display: none;
+  }
+  .margin {
+    margin-left: 0rem;
+  }
+  li{
+    margin-bottom:10px;
+  }
+}
+
+.topNav {
+  width:145px;
+  margin-top:10px;
+}
