@@ -108,3 +108,8 @@ li {
 .font-family-dancing{
   font-family: 'Dancing Script', cursive;
 }
+
+.circled{
+  border:10px darkred solid;
+  border-radius:50%;
+}

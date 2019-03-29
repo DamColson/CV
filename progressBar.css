@@ -1,7 +1,7 @@
 .progress-circle{
   position: relative;             /* pour servir de référent */
   box-sizing: border-box;         /* prise en compte bordure dans la dimension */
-  font-size: 8em;                 /* pour définir les dimensions */
+  font-size: 7em;                 /* pour définir les dimensions */
   width: 1em;                     /* fixe la largeur */
   height: 1em;                    /* fixe la hauteur */
   border-radius: 50%;             /* rendu aspect circulaire */
